@@ -102,3 +102,20 @@
 {"level":"info","message":"User car@gmail.com created successfully","service":"acquisitions-api","timestamp":"2026-01-17T18:29:49.033Z"}
 {"level":"info","message":"User registered succesfully: car@gmail.com","service":"acquisitions-api","timestamp":"2026-01-17T18:29:49.040Z"}
 {"level":"info","message":"::1 - - [17/Jan/2026:18:29:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 112 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-17T18:29:49.042Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Jan/2026:19:53:25 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"curl/7.81.0\"","service":"acquisitions-api","timestamp":"2026-01-17T19:53:25.259Z"}
+{"level":"info","message":"User test@example.com created successfully","service":"acquisitions-api","timestamp":"2026-01-17T19:57:24.223Z"}
+{"level":"info","message":"User registered succesfully: test@example.com","service":"acquisitions-api","timestamp":"2026-01-17T19:57:24.242Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Jan/2026:19:57:24 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 118 \"-\" \"curl/7.81.0\"","service":"acquisitions-api","timestamp":"2026-01-17T19:57:24.247Z"}
+{"level":"info","message":"User test@example.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-01-17T19:58:21.312Z"}
+{"level":"info","message":"User signed in successfully: test@example.com","service":"acquisitions-api","timestamp":"2026-01-17T19:58:21.316Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Jan/2026:19:58:21 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 117 \"-\" \"curl/7.81.0\"","service":"acquisitions-api","timestamp":"2026-01-17T19:58:21.319Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-01-17T20:01:49.130Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Jan/2026:20:01:49 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"curl/7.81.0\"","service":"acquisitions-api","timestamp":"2026-01-17T20:01:49.145Z"}
+{"level":"error","message":"Error authenticating user  Invalid credentials","service":"acquisitions-api","stack":"Error: Invalid credentials\n    at authenticateUser (file:///home/juanda/lab/acquisitions/src/services/auth.service.js:36:32)\n    at async signin (file:///home/juanda/lab/acquisitions/src/controllers/auth.controller.js:60:18)","timestamp":"2026-01-17T20:01:58.962Z"}
+{"level":"error","message":"Signin error Invalid credentials","service":"acquisitions-api","stack":"Error: Invalid credentials\n    at authenticateUser (file:///home/juanda/lab/acquisitions/src/services/auth.service.js:36:32)\n    at async signin (file:///home/juanda/lab/acquisitions/src/controllers/auth.controller.js:60:18)","timestamp":"2026-01-17T20:01:58.964Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [17/Jan/2026:20:01:58 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 401 31 \"-\" \"curl/7.81.0\"","service":"acquisitions-api","timestamp":"2026-01-17T20:01:58.967Z"}
+{"level":"info","message":"User car@gmail.com authenticated successfully","service":"acquisitions-api","timestamp":"2026-01-17T20:03:51.488Z"}
+{"level":"info","message":"User signed in successfully: car@gmail.com","service":"acquisitions-api","timestamp":"2026-01-17T20:03:51.493Z"}
+{"level":"info","message":"::1 - - [17/Jan/2026:20:03:51 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 111 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-17T20:03:51.496Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-01-17T20:05:27.491Z"}
+{"level":"info","message":"::1 - - [17/Jan/2026:20:05:27 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.51.0\"","service":"acquisitions-api","timestamp":"2026-01-17T20:05:27.511Z"}
